@@ -2,6 +2,7 @@ using BankManagementSystem.Data;
 using BankManagementSystem.Menus;
 using Microsoft.EntityFrameworkCore;
 
+
 using var db = new AppDbContext();
 db.Database.Migrate();
 db.SaveChanges();
